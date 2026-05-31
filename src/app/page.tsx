@@ -64,7 +64,7 @@ export default function LandingPage() {
           text: "Learn More",          href: "/#features"},
       ]}
       buttonAnimation="slide-up"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ETxtqrjDyvbcEh3tg3avl3Dzvy/uploaded-1780217473749-769e2fde.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ETxtqrjDyvbcEh3tg3avl3Dzvy/uploaded-1780218615445-zvyz9odq.png"
       imageAlt="Aesthetic product display with modern lighting and premium feel"
     />
   </div>
