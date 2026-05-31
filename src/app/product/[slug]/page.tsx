@@ -26,33 +26,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Products",
-          id: "/products",
-        },
+          name: "Products",          id: "/products"},
         {
-          name: "Features",
-          id: "/#features",
-        },
+          name: "Features",          id: "/#features"},
         {
-          name: "Testimonials",
-          id: "/#testimonials",
-        },
+          name: "Testimonials",          id: "/#testimonials"},
         {
-          name: "FAQ",
-          id: "/#faq",
-        },
+          name: "FAQ",          id: "/#faq"},
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kd6aiy"
       logoAlt="ShopFusion Logo"
       brandName="ShopFusion"
       button={{
-        text: "Shop Now",
-        href: "/products",
-      }}
+        text: "Shop Now",        href: "/products"}}
     />
   </div>
 
@@ -66,47 +54,29 @@ export default function LandingPage() {
       description="Immerse yourself in a serene sunset ambiance with the Aurora Glow Lamp. Its minimalist design and captivating light projection transform any room into a tranquil oasis. Perfect for creating a relaxing atmosphere or a stunning backdrop for your content."
       images={[
         {
-          src: "http://img.b2bpic.net/free-photo/everyday-bath-utensils-dark-marble-background_58702-17721.jpg",
-          alt: "Aurora Glow Lamp close-up",
-        },
+          src: "http://img.b2bpic.net/free-photo/everyday-bath-utensils-dark-marble-background_58702-17721.jpg",          alt: "Aurora Glow Lamp close-up"},
         {
-          src: "http://img.b2bpic.net/free-photo/still-life-refillable-reusable-container_23-2150936068.jpg",
-          alt: "Aurora Glow Lamp in a living room",
-        },
+          src: "http://img.b2bpic.net/free-photo/still-life-refillable-reusable-container_23-2150936068.jpg",          alt: "Aurora Glow Lamp in a living room"},
         {
-          src: "http://img.b2bpic.net/free-photo/still-life-burnt-paper-with-flames_23-2150104311.jpg",
-          alt: "Aurora Glow Lamp casting light",
-        },
+          src: "http://img.b2bpic.net/free-photo/still-life-burnt-paper-with-flames_23-2150104311.jpg",          alt: "Aurora Glow Lamp casting light"},
       ]}
       variants={[
         {
-          label: "Color",
-          options: [
-            "Sunset Red",
-            "Ocean Blue",
-            "Forest Green",
-          ],
-          selected: "Sunset Red",
-          onChange: "() => {}",
+          label: "Color",          options: [
+            "Sunset Red",            "Ocean Blue",            "Forest Green"],
+          selected: "Sunset Red",          onChange: (value) => {},
         },
       ]}
       quantity={{
-        label: "Quantity",
-        options: [
-          "1",
-          "2",
-          "3",
-        ],
-        selected: "1",
-        onChange: "() => {}",
+        label: "Quantity",        options: [
+          "1",          "2",          "3"],
+        selected: "1",        onChange: (value) => {},
       }}
       buttons={[
         {
-          text: "Add to Cart",
-        },
+          text: "Add to Cart"},
         {
-          text: "Buy Now",
-        },
+          text: "Buy Now"},
       ]}
     />
   </div>
@@ -119,52 +89,22 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "rp-1",
-          name: "Zen Desktop Fountain",
-          price: "$65.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-cosmetic-products_23-2149163158.jpg",
-          imageAlt: "Zen Desktop Fountain",
-          isFavorited: false,
+          id: "rp-1",          name: "Zen Desktop Fountain",          price: "$65.00",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-cosmetic-products_23-2149163158.jpg",          imageAlt: "Zen Desktop Fountain",          isFavorited: false,
         },
         {
-          id: "rp-2",
-          name: "Scented Candle Set",
-          price: "$30.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/minimal-beauty-products-composition_23-2148961350.jpg",
-          imageAlt: "Scented Candle Set",
-          isFavorited: true,
+          id: "rp-2",          name: "Scented Candle Set",          price: "$30.00",          imageSrc: "http://img.b2bpic.net/free-photo/minimal-beauty-products-composition_23-2148961350.jpg",          imageAlt: "Scented Candle Set",          isFavorited: true,
         },
         {
-          id: "rp-3",
-          name: "Minimalist Ceramic Mug",
-          price: "$18.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/person-using-nfc-technology-pay-bill-restaurant_23-2150039428.jpg",
-          imageAlt: "Minimalist Ceramic Mug",
-          isFavorited: false,
+          id: "rp-3",          name: "Minimalist Ceramic Mug",          price: "$18.00",          imageSrc: "http://img.b2bpic.net/free-photo/person-using-nfc-technology-pay-bill-restaurant_23-2150039428.jpg",          imageAlt: "Minimalist Ceramic Mug",          isFavorited: false,
         },
         {
-          id: "rp-4",
-          name: "Boho Macrame Wall Hanging",
-          price: "$40.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/summer-spring-break-holiday-vacation-leisure-concept_53876-31829.jpg",
-          imageAlt: "Boho Macrame Wall Hanging",
-          isFavorited: false,
+          id: "rp-4",          name: "Boho Macrame Wall Hanging",          price: "$40.00",          imageSrc: "http://img.b2bpic.net/free-photo/summer-spring-break-holiday-vacation-leisure-concept_53876-31829.jpg",          imageAlt: "Boho Macrame Wall Hanging",          isFavorited: false,
         },
         {
-          id: "rp-5",
-          name: "Organic Cotton Throw",
-          price: "$70.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-minimalist-podium_23-2148959329.jpg",
-          imageAlt: "Organic Cotton Throw",
-          isFavorited: true,
+          id: "rp-5",          name: "Organic Cotton Throw",          price: "$70.00",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-minimalist-podium_23-2148959329.jpg",          imageAlt: "Organic Cotton Throw",          isFavorited: true,
         },
         {
-          id: "rp-6",
-          name: "Geometric Planter Set",
-          price: "$50.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-composition-cleaning-products-with-copyspace_23-2148133459.jpg",
-          imageAlt: "Geometric Planter Set",
-          isFavorited: false,
+          id: "rp-6",          name: "Geometric Planter Set",          price: "$50.00",          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-composition-cleaning-products-with-copyspace_23-2148133459.jpg",          imageAlt: "Geometric Planter Set",          isFavorited: false,
         },
       ]}
       title="You Might Also Like"
@@ -177,62 +117,37 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Shop",
-          items: [
+          title: "Shop",          items: [
             {
-              label: "All Products",
-              href: "/products",
-            },
+              label: "All Products",              href: "/products"},
             {
-              label: "Trending",
-              href: "/products#trending",
-            },
+              label: "Trending",              href: "/products#trending"},
             {
-              label: "Best Sellers",
-              href: "/products#bestsellers",
-            },
+              label: "Best Sellers",              href: "/products#bestsellers"},
             {
-              label: "Flash Deals",
-              href: "/products#deals",
-            },
+              label: "Flash Deals",              href: "/products#deals"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/#features",
-            },
+              label: "About Us",              href: "/#features"},
             {
-              label: "Testimonials",
-              href: "/#testimonials",
-            },
+              label: "Testimonials",              href: "/#testimonials"},
             {
-              label: "FAQ",
-              href: "/#faq",
-            },
+              label: "FAQ",              href: "/#faq"},
             {
-              label: "Contact",
-              href: "/#contact",
-            },
+              label: "Contact",              href: "/#contact"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
             {
-              label: "Return Policy",
-              href: "#",
-            },
+              label: "Return Policy",              href: "#"},
           ],
         },
       ]}
