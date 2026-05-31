@@ -64,7 +64,7 @@ export default function LandingPage() {
           text: "Learn More",          href: "/#features"},
       ]}
       buttonAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/side-view-young-woman-sitting-chair_23-2149411363.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ETxtqrjDyvbcEh3tg3avl3Dzvy/uploaded-1780217473749-769e2fde.png"
       imageAlt="Aesthetic product display with modern lighting and premium feel"
     />
   </div>
